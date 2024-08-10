@@ -1,0 +1,41 @@
+body{
+    background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/138/265/original/pexels-pixabay-355321.jpg?1723277279);
+}
+
+ .form-wrapper { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 50px;
+    width: 100%; 
+}
+
+.search-input { 
+    width: 300px; 
+    height: 40px; 
+     border-radius: 30px;
+     padding-left: 20px;
+     background-color: #f0eded;
+    
+    border-width: 0px;
+}
+
+
+.search-button { 
+    width: 100px; 
+    height: 40px; 
+    border-radius: 30px;
+     background-color:#757373;
+    color: white;
+    border-width: 0px;
+}
+.search-button:hover{
+background-color: #5c5858;
+}
+
+.current-weather{
+    color: whitesmoke;
+}
+footer{
+    color: whitesmoke;
+}

@@ -1,51 +1,79 @@
-body{
-    background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/138/265/original/pexels-pixabay-355321.jpg?1723277279);
+body {
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/138/265/original/pexels-pixabay-355321.jpg?1723277279);
 }
 
- .form-wrapper { 
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    margin-top: 50px;
-    width: 100%; 
+.form-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  width: 100%;
 }
 
-.search-input { 
-    width: 300px; 
-    height: 40px; 
-     border-radius: 30px;
-     padding-left: 20px;
-     background-color: #f0eded;
-    
-    border-width: 0px;
+.search-input {
+  width: 300px;
+  height: 40px;
+  border-radius: 30px;
+  padding-left: 20px;
+  background-color: #f0eded;
+
+  border-width: 0px;
 }
 
-
-.search-button { 
-    width: 100px; 
-    height: 40px; 
-    border-radius: 30px;
-     background-color:#757373;
-    color: white;
-    border-width: 0px;
+.search-button {
+  width: 100px;
+  height: 40px;
+  border-radius: 30px;
+  background-color: #757373;
+  color: white;
+  border-width: 0px;
 }
-.search-button:hover{
-background-color: #5c5858;
-}
-
-.current-weather{
-    color: whitesmoke;
-}
-footer{
-    color: whitesmoke;
+.search-button:hover {
+  background-color: #5c5858;
 }
 
-.weather-main{
-     border: 2px solid rgba(128, 128, 128, 0.5); 
-    padding: 80px; 
-    border-radius: 10px; 
-    background-color: rgba(255, 255, 255, 0.2); 
-    width: fit-content; 
-    margin-left: 40px; 
-    margin-top: 40px;
+.current-weather {
+  color: whitesmoke;
+  font-family: sans-serif;
+  
 }
+
+footer {
+  color: whitesmoke;
+  font-family: sans-serif;
+}
+
+.weather-main {
+  border: 2px solid rgba(128, 128, 128, 0.5);
+  padding-left: 20px;
+  padding-right: 300px;
+  padding-bottom: 100px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.2);
+  width: fit-content;
+  margin-left: 40px;
+  margin-top: 40px;
+
+}
+
+.current-temperature {
+position: absolute;
+  right: 800px;
+  top: 30%;
+  display: flex;
+ font-size: 70px;
+  text-align: right;
+  font-family: sans-serif;
+}
+
+.current-city{
+    margin-top: 60px;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+.current-details{
+    margin-top: 30px;
+    font-size: 15px;
+}
+

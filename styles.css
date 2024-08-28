@@ -64,6 +64,7 @@ body {
   font-family: sans-serif;
   margin-bottom: 90px;
   margin-top: 70px;
+  margin-right: -10px;
   
 }
 .current-temperature-value{
